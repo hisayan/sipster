@@ -1257,7 +1257,7 @@ public:
       JS2PJ_UINT(reg_obj, firstRetryIntervalSec, regConfig);
       JS2PJ_UINT(reg_obj, delayBeforeRefreshSec, regConfig);
       JS2PJ_BOOL(reg_obj, dropCallsOnFail, regConfig);
-      JS2PJ_UINT(reg_obj, unregWaitSec, regConfig);
+      JS2PJ_UINT(reg_obj, unregWaitMsec, regConfig);
       JS2PJ_UINT(reg_obj, proxyUse, regConfig);
 
       acct_cfg.regConfig = regConfig;
